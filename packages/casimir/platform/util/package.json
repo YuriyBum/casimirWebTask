@@ -1,0 +1,30 @@
+{
+  "name": "@casimir.one/platform-util",
+  "version": "0.0.10",
+  "description": "Utils for deip platform applications",
+  "author": "Euheny Bondarovich <euheny@gmail.com>",
+  "homepage": "https://github.com/DEIPworld/deip-modules#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEIPworld/deip-modules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DEIPworld/deip-modules/issues"
+  },
+  "dependencies": {
+    "@casimir.one/proxydi": "0.0.10",
+    "@casimir.one/toolbox": "0.0.10",
+    "@casimir.one/web-socket-service": "0.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  }
+}

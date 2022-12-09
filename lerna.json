@@ -1,0 +1,30 @@
+{
+  "packages": [
+    "packages/common/*",
+    "packages/casimir/*/*"
+  ],
+  "version": "0.0.10",
+  "npmClient": "npm",
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore: publish %s",
+      "ignoreChanges": [
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md"
+      ],
+      "includeMergedTags": true,
+      "allowBranch": [
+        "master",
+        "main"
+      ]
+    },
+    "publish": {},
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}

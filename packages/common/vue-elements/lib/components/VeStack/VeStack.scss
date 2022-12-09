@@ -1,0 +1,23 @@
+@use 'sass:map';
+@use '../../styles/tools/breakpoint';
+
+.ve-stack {
+  @include breakpoint.gen-css-vars-queries(gap, 1.5rem) using ($value) {
+    grid-gap: $value;
+  };
+
+  @include breakpoint.gen-css-vars-queries(flow, row) using ($value) {
+    grid-auto-flow: $value;
+  };
+
+  @include breakpoint.gen-css-vars-queries(template-columns, none) using ($value) {
+    grid-template-columns: $value;
+  };
+
+
+  display: grid;
+
+  &[style*='column'] {
+    grid-auto-columns: max-content;
+  }
+}

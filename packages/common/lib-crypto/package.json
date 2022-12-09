@@ -1,0 +1,29 @@
+{
+    "name": "@casimir.one/lib-crypto",
+    "version": "0.0.10",
+    "description": "Common javascript cryptographic utilities. Based on sjcl.",
+    "main": "lib/crypto.js",
+    "scripts": {
+        "prepare": "npm run build",
+        "clean": "shx rm -rf lib",
+        "fmt": "prettier --write '{src,scripts}/**/*.js' && eslint '{src,scripts}/**/*.js'",
+        "build": "node ./scripts/build.js",
+        "sjcl-test": "node ./scripts/test.js",
+        "test": "node ./scripts/build.js && node ./scripts/test.js && tape 'test/*.test.js'"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/plugin-proposal-decorators": "^7.14.2",
+        "@babel/plugin-proposal-object-rest-spread": "^7.14.4",
+        "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+        "@babel/plugin-proposal-private-methods": "^7.13.0",
+        "eslint": "^7.28.0",
+        "prettier": "~2.3.1",
+        "shx": "^0.3.3",
+        "tape": "^5.2.2"
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@casimir.one/chain-service",
+  "version": "0.0.10",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/preset-env": "^7.14.4"
+  },
+  "dependencies": {
+    "@casimir.one/lib-crypto": "0.0.10",
+    "@casimir.one/platform-core": "0.0.10",
+    "@casimir.one/proxydi": "0.0.10",
+    "@casimir.one/toolbox": "0.0.10",
+    "@polkadot/api": "8.6.2",
+    "@polkadot/rpc-provider": "8.6.2",
+    "@polkadot/types": "8.6.2",
+    "bigi": "^1.4.2",
+    "bignumber.js": "^9.0.2",
+    "bs58": "^4.0.0",
+    "bytebuffer": "^5.0.1",
+    "change-case": "^4.1.2",
+    "cross-fetch": "^3.1.4",
+    "ecurve": "^1.0.5",
+    "secure-random": "^1.1.1",
+    "web-encoding": "1.1.5"
+  }
+}

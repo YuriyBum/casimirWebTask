@@ -1,0 +1,35 @@
+{
+  "name": "@casimir.one/platform-core",
+  "version": "0.0.10",
+  "description": "> TODO: description",
+  "author": "Euheny Bondarovich <euheny@gmail.com>",
+  "homepage": "https://github.com/DEIPworld/deip-modules#readme",
+  "keywords": [
+    "casimir"
+  ],
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEIPworld/deip-modules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DEIPworld/deip-modules/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@casimir.one/toolbox": "0.0.10"
+  }
+}

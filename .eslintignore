@@ -1,0 +1,8 @@
+*
+**/node_modules/**
+**/dist/**
+packages/common/lib-crypto/**
+packages/casimir/services/RpcClient/**
+packages/casimir/services/Chain/**
+packages/casimir/services/Grants/**
+packages/generators/**/generators/*/templates/**

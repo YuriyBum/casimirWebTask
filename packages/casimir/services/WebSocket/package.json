@@ -1,0 +1,27 @@
+{
+  "name": "@casimir.one/web-socket-service",
+  "version": "0.0.10",
+  "description": "> TODO: description",
+  "author": "Elena Vlasova <e.vlasova@paralect.com>",
+  "homepage": "https://github.com/DEIPworld/casimir-frontend#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEIPworld/casimir-frontend.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DEIPworld/casimir-frontend/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@casimir.one/access-service": "0.0.10",
+    "@casimir.one/proxydi": "0.0.10",
+    "@casimir.one/toolbox": "0.0.10"
+  }
+}
